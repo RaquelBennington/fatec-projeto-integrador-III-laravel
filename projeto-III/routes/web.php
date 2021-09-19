@@ -14,9 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
 
 Route::get('/sobre', function () {
-    return "Hello world";
+    return view('sobre');
 });
+
+Route::get('/discoecultura', function () {
+    return view('cultura');
+});
+
+Route::get('/contato', function () {
+    return view('contato');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/carrinho', function () {
+    return view('carrinho');
+});
+
+
