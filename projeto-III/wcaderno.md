@@ -30,3 +30,9 @@ ______________________________________________ => View
 - Nas views temos os templates, que são as estruturas da página por meio do HTML;
 - Templates também redderizam DADOS DINÂMICOS por meio do PHP;
 - templates = blades.
+
+# criando component blade
+
+comando: php artisan make:component Header
+
+O comando gera um componente, e cria no laravel em resources > views > components > header.blade (cria a pasta componets e o arquivo), e cria também em App > view > componets >header.phh (cria pasta componets e o arquivo)
