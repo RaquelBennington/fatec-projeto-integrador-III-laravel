@@ -9,6 +9,8 @@
 <body>
     <x-navbar />
     <x-header />
+    <x-navbar-categorias />
+    <x-section-cards />
     <x-footer />
 </body>
 </html>
