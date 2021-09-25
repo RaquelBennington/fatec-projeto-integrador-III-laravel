@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+Route::get('/comofunciona', function () {
+    return view('comofunciona');
+});
+
 Route::get('/sobre', function () {
     return view('sobre');
 });
@@ -27,10 +31,6 @@ Route::get('/cultura', function () {
 
 Route::get('/contato', function () {
     return view('contato');
-});
-
-Route::get('/login', function () {
-    return view('login');
 });
 
 Route::get('/carrinho', function () {
