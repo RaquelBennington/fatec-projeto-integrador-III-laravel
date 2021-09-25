@@ -21,7 +21,7 @@ Route::get('/sobre', function () {
     return view('sobre');
 });
 
-Route::get('/discoecultura', function () {
+Route::get('/cultura', function () {
     return view('cultura');
 });
 
