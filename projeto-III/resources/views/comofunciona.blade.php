@@ -9,7 +9,6 @@
 <body>
     <x-navbar />
     <x-header />
-    <x-navbar-categorias />
     <x-comofunciona />
     <x-footer />
 </body>

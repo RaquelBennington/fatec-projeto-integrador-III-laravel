@@ -1,23 +1,73 @@
-<section class="bg-blue-300">
-    <h1>Como Funciona</h1>
-</section>
 
-<section class="flex flex-col max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-24">
-        <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-black md:dark:bg-gray-800">
-            <div class="px-6 py-6 md:px-8 md:py-0">
-                <h2 class="text-lg font-bold text-gray-00 dark:text-white md:text-gray-400">Assine a nossa <span class="text-white dark:text-blue-400 md:text-white">Newsletter</span></h2>
-                
-                <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 md:text-gray-400">Receba nossas ofertas semanal em seu email.</p>
+   <section>
+       <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div>
+      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+        Tudo sobre o seu pedido
+      </p>
+    </div>
+    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <span class="relative inline-block">
+        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+          <defs>
+            <pattern id="db164e35-2a0e-4c0f-ab05-f14edc6d4d30" x="0" y="0" width=".135" height=".30">
+              <circle cx="1" cy="1" r=".7"></circle>
+            </pattern>
+          </defs>
+          <!-- <rect fill="url(#db164e35-2a0e-4c0f-ab05-f14edc6d4d30)" width="52" height="24"></rect> -->
+        </svg>
+        <span class="relative">Como</span>
+      </span>
+       Funciona
+    </h2>
+    <p class="text-base text-gray-700 md:text-lg">
+      Cuidamos do seu vinil do pedido até a entrega. Na Vinil Club cada vinil é embalado separadamente, afim de proteger capa e disco. 
+    </p>
+  </div>
+    <div class="grid max-w-sm gap-5 mb-8 lg:grid-cols-3 sm:mx-auto lg:max-w-full">
+        <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+            <div class="inline-flex items-center">
+                <img class="object-cover w-full h-56 md:h-64 xl:h-80"src="https://i.ibb.co/vkzM3nr/disco-de-vinil-com-capa-128452-18.jpg">
             </div>
+        <div class="pt-4">
+            <div class="flex items-center justify-center w-10 h-10 border rounded-full">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+            <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>   
+          </div>
+            <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Capa extra</a>
         </div>
+    </div>
 
-        <div class="flex items-center justify-center pb-6 md:py-0 md:w-1/2">
-            <form>
-                <div class="flex flex-col overflow-hidden border rounded-lg dark:border-gray-600 lg:flex-row">
-                    <input class="px-6 py-3 text-gray-700 placeholder-gray-500 bg-white outline-none dark:bg-gray-800 dark:placeholder-gray-400 focus:placeholder-transparent dark:focus:placeholder-transparent" type="text" name="email" placeholder="Digite seu email" aria-label="Enter your email">
-                    
-                    <button class="px-4 py-3 text-sm font-medium tracking-wider text-gray-100 uppercase transition-colors duration-200 transform bg-black hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">enviar</button>
-                </div>
-            </form>
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+            <div class="inline-flex items-center h-62 ">
+                <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://i.ibb.co/vLhW8PY/embalagem-0000.png" alt="">
+            </div>
+      <div class="pt-4">
+          <div class="flex items-center justify-center w-10 h-10 border rounded-full">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+            <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>   
+          </div>
+
+         <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Embalagem reforçada</a>
+      </div>
+
+    </div>
+
+
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+        <div class="inline-flex items-center">
+            <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://i.ibb.co/s2Pt5br/embalagem-entrega.png" alt="">
         </div>
-    </section>
+         <div class="pt-4">
+            <div class="flex items-center justify-center w-10 h-10 border rounded-full">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+            <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>   
+          </div>
+            <p class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Entrega rápida</p>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
