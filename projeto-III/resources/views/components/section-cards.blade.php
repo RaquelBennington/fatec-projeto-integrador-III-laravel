@@ -1,104 +1,149 @@
-<!-- component -->
-<section class="bg-black body-font">
-  <div class="container px-5 py-24 mx-auto">
+   <section>
+       <div class="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 lg:py-8">
 
-    <div class="flex flex-wrap -m-4">
-
-      <div class="lg:w-1/3 w-1/2 p-4">
-        <a href="#">   
-            <div class="flex flex-col items-center justify-center max-w-sm mx-auto">
-                <div class="h-72 w-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg)"></div>
-                <div class="w-32 -mt-10 overflow-hidden bg-black rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                    <h3 class="py-2 font-bold tracking-wide text-center text-white uppercase dark:text-white">Jorge Ben</h3>  
-                    <div class="flex items-center justify-between px-3 py-2 bg-white dark:bg-gray-700">
-                        <span class="font-bold text-black dark:text-gray-200">R$149</span>
-                        <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-black rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">COMPRA</button>
-                    </div>
-                </div>
+       <div class="grid max-w-sm gap-5 mb-8 lg:grid-cols-4 sm:mx-auto lg:max-w-full">
+        <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+            <div class="inline-flex items-center">
+                <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
             </div>
-        </a>
-      </div>
+        <div>
+            <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+            <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</a>
+        </div>
 
-
-      <div class="lg:w-1/3 w-1/2 p-4">
-        <a href="#">   
-            <div class="flex flex-col items-center justify-center max-w-sm mx-auto">
-                <div class="h-72 w-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://i.ibb.co/wypdvjn/D10-Chaka-Khan.jpg)"></div>
-                <div class="w-32 -mt-10 overflow-hidden bg-black rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                    <h3 class="py-2 font-bold tracking-wide text-center text-white uppercase dark:text-white">Chaka Khan</h3>  
-                    <div class="flex items-center justify-between px-3 py-2 bg-white dark:bg-gray-700">
-                        <span class="font-bold text-black dark:text-gray-200">R$170</span>
-                        <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-black rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">COMPRA</button>
-                    </div>
-                </div>
-            </div>
-        </a>
-      </div>
-
-
-      <div class="lg:w-1/3 w-1/2 p-4">
-        <a href="#">   
-            <div class="flex flex-col items-center justify-center max-w-sm mx-auto">
-                <div class="h-72 w-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://i.ibb.co/NNfdc3R/D1-Stevie-Wonder.jpg)"></div>
-                <div class="w-32 -mt-10 overflow-hidden bg-black rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                    <h3 class="py-2 font-bold tracking-wide text-center text-white uppercase dark:text-white">Stevie Wonder</h3>  
-                    <div class="flex items-center justify-between px-3 py-2 bg-white dark:bg-gray-700">
-                        <span class="font-bold text-black dark:text-gray-200">R$130</span>
-                        <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-black rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">COMPRA</button>
-                    </div>
-                </div>
-            </div>
-        </a>
-      </div>
-
-
-      <div class="lg:w-1/3 w-1/2 p-4">
-        <a href="#">   
-            <div class="flex flex-col items-center justify-center max-w-sm mx-auto">
-                <div class="h-72 w-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://i.ibb.co/mq2YLcv/D4-Dave-Brubeck.jpg)"></div>
-                <div class="w-32 -mt-10 overflow-hidden bg-black rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                    <h3 class="py-2 font-bold tracking-wide text-center text-white uppercase dark:text-white">Dave Brubeck</h3>  
-                    <div class="flex items-center justify-between px-3 py-2 bg-white dark:bg-gray-700">
-                        <span class="font-bold text-black dark:text-gray-200">R$260</span>
-                        <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-black rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">COMPRA</button>
-                    </div>
-                </div>
-            </div>
-        </a>
-      </div>
-
-
-      <div class="lg:w-1/3 w-1/2 p-4">
-        <a href="#">   
-            <div class="flex flex-col items-center justify-center max-w-sm mx-auto">
-                <div class="h-72 w-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://i.ibb.co/8gFv0vd/D8-Ella-Fitzgerald.jpg)"></div>
-                <div class="w-32 -mt-10 overflow-hidden bg-black rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                    <h3 class="py-2 font-bold tracking-wide text-center text-white uppercase dark:text-white">Ella Fitzgerald</h3>  
-                    <div class="flex items-center justify-between px-3 py-2 bg-white dark:bg-gray-700">
-                        <span class="font-bold text-black dark:text-gray-200">R$300</span>
-                        <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-black rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">COMPRA</button>
-                    </div>
-                </div>
-            </div>
-        </a>
-      </div>
-
-
-      <div class="lg:w-1/3 w-1/2 p-4">
-        <a href="#">   
-            <div class="flex flex-col items-center justify-center max-w-sm mx-auto">
-                <div class="h-72 w-72 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://i.ibb.co/r0ZpyGw/V001.jpg)"></div>
-                <div class="w-32 -mt-10 overflow-hidden bg-black rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                    <h3 class="py-2 font-bold tracking-wide text-center text-white uppercase dark:text-white">The Roots</h3>  
-                    <div class="flex items-center justify-between px-3 py-2 bg-white dark:bg-gray-700">
-                        <span class="font-bold text-black dark:text-gray-200">R$229</span>
-                        <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-black rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">COMPRA</button>
-                    </div>
-                </div>
-            </div>
-        </a>
-      </div>
-
+        <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
 
     </div>
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+            <div class="inline-flex items-center">
+                <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+            </div>
+      <div>
+          <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+               <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</a>
+        </div>
+
+      <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+
+    </div>
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+        <div class="inline-flex items-center">
+            <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+        </div>
+         <div>
+            <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+            <p class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</p>
+        </div>
+        <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+    </div>
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+        <div class="inline-flex items-center">
+            <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+        </div>
+         <div>
+            <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+            <p class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</p>
+        </div>
+        <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 lg:py-2">
+
+       <div class="grid max-w-sm gap-5 mb-8 lg:grid-cols-4 sm:mx-auto lg:max-w-full">
+        <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+            <div class="inline-flex items-center">
+                <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+            </div>
+        <div>
+            <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+            <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</a>
+        </div>
+
+        <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+
+    </div>
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+            <div class="inline-flex items-center">
+                <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+            </div>
+      <div>
+          <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+               <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</a>
+        </div>
+
+      <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+
+    </div>
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+        <div class="inline-flex items-center">
+            <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+        </div>
+         <div>
+            <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+            <p class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</p>
+        </div>
+        <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+    </div>
+
+    <div class="px-10 py-20 text-center border rounded lg:px-5 lg:py-5 xl:py-10">
+        <div class="inline-flex items-center">
+            <img src="https://i.ibb.co/pynHw81/D6-Jorge-Ben.jpg" alt="">
+        </div>
+         <div>
+            <p class="text-xs font-semibold tracking-wide text-gray-600 uppercase p-2">O Bidú: Silêncio No Brooklin</p>
+            <p class="inline-flex items-center font-semibold transition-colors duration-200 text-gray-600  hover:text-black">Jorge Ben</p>
+        </div>
+        <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-900 focus:outline-none focus:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+            </svg>
+            <span class="mx-1">Comprar</span>
+        </button>
+    </div>
+  </div>
+</div>
+</div>
 </section>

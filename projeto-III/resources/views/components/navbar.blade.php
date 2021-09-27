@@ -21,7 +21,7 @@
             <div class="items-center md:flex">
                 <div class="flex flex-col md:flex-row md:mx-6">
                     <a class="my-1 text-sm font-medium text-gray-300 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Como funciona</a>
-                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Quem Somos</a>
+                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Quem somos</a>
                     <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Disco é cultura</a>
                     <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Contato</a>
                 </div>
@@ -35,6 +35,7 @@
                         <span class="absolute top-0 left-0 p-1 text-xs text-white bg-white rounded-full"></span>
                     </a>
                 </div>
+
             </div>
         </div>
     </nav>

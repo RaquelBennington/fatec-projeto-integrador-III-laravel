@@ -33,6 +33,10 @@ Route::get('/contato', function () {
     return view('contato');
 });
 
+Route::get('/signup', function () {
+    return view('signup');
+});
+
 Route::get('/carrinho', function () {
     return view('carrinho');
 });
