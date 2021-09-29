@@ -4,7 +4,7 @@
         <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
             <div class="flex items-center justify-between">
                 <div>
-                    <a class="text-2xl font-bold text-gray-300 dark:text-white lg:text-3xl hover:text-gray-100 dark:hover:text-gray-300" href="#">Vinyl Club</a>
+                    <a class="text-2xl font-bold text-gray-300 dark:text-white lg:text-3xl hover:text-gray-100 dark:hover:text-gray-300" href="/">Vinyl Club</a>
                 </div>
                 
                 <!-- Mobile menu button -->
@@ -20,10 +20,10 @@
             <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
             <div class="items-center md:flex">
                 <div class="flex flex-col md:flex-row md:mx-6">
-                    <a class="my-1 text-sm font-medium text-gray-300 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Como funciona</a>
-                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Quem somos</a>
-                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Disco é cultura</a>
-                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Contato</a>
+                    <a class="my-1 text-sm font-medium text-gray-300 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="/comofunciona">Como funciona</a>
+                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="/sobre">Quem somos</a>
+                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="/cultura">Disco é cultura</a>
+                    <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="/contato">Contato</a>
                 </div>
 
                 <div class="flex justify-center md:block">

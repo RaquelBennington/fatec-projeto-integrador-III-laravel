@@ -41,4 +41,12 @@ Route::get('/carrinho', function () {
     return view('carrinho');
 });
 
+Route::get('/produto-detalhe', function () {
+    return view('produto-detalhe');
+});
+
+Route::get('/carrinho', function () {
+    return view('carrinho');
+});
+
 

@@ -3,10 +3,10 @@
     <div class="flex flex-col md:flex-row md:mx-6 ">
         <a class="my-1 text-sm font-medium text-gray-300 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Lançamentos</a>
         <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Brasilidades</a>
-        <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Funk</a>
+        <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Funk / Soul</a>
         <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Jazz</a>
         <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Rock</a>
-        <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Soul</a>
+        <a class="my-1 text-sm font-medium text-gray-400 dark:text-gray-200 hover:text-white dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#">Hip Hop</a>
     </div>
  </div>
 </section>
